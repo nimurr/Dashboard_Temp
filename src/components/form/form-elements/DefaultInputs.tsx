@@ -5,6 +5,7 @@ import Input from "../input/InputField";
 import Select from "../Select";
 import { EyeCloseIcon, EyeIcon, TimeIcon } from "../../../icons";
 import DatePicker from "../date-picker.tsx";
+import DropzoneComponent from "./DropZone.tsx";
 
 export default function DefaultInputs() {
   const [showPassword, setShowPassword] = useState(false);
@@ -110,6 +111,7 @@ export default function DefaultInputs() {
           </div>
         </div>
       </div>
+      <DropzoneComponent />
     </ComponentCard>
   );
 }
